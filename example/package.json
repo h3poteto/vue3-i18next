@@ -1,0 +1,25 @@
+{
+  "name": "example",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server -p 8000 -s index.html"
+  },
+  "author": "Akira Fukushima <h3.poteto@gmail.com> (https://github.com/h3poteto)",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^14.1.0",
+    "vue": "^3.2.31",
+    "vue3-i18next": "0.1.0"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.33",
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.2.8",
+    "vue-loader": "^17.0.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
