@@ -69,15 +69,21 @@ app.mount("#app");
   </div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from "vue";
+import { useI18next } from "vue3-i18next";
+
+export default defineComponent({
   name: 'App',
-  methods: {
-    loadbundle() {
-      return this.$t('message.loadbundle', {lang: 'en'})
-    },
+  setup() {
+    const i18n = useI18next();
+    const loadbundle = () => i18n.t('message.loadbundle', {lang: 'en'});
+
+    return {
+      loadbundle,
+    };
   },
-}
+});
 </script>
 ```
 
