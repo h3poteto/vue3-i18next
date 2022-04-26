@@ -1,16 +1,19 @@
 <template>
   <span class="hello">{{ $t("top.title") }}</span>
-  <Sub />
+  <Option />
+  <Composition weather="rainy" />
 </template>
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import Sub from "./Sub.vue";
+import Option from "./Option.vue";
+import Composition from "./Composition.vue";
 
 export default defineComponent({
   name: "App",
   components: {
-    Sub,
+    Option,
+    Composition,
   },
   setup() {
     return {};

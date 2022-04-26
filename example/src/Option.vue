@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: "Sub",
+  name: "Option",
   methods: {
     name() {
       return this.$t("top.description", { name: "h3poteto" });

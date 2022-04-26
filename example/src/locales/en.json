@@ -1,6 +1,7 @@
 {
   "top": {
     "title": "hello world",
-    "description": "My name is {{name}}"
+    "description": "My name is {{name}}",
+    "weather": "Today is {{weather}}"
   }
 }
