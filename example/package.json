@@ -6,7 +6,7 @@
     "build": "webpack",
     "start": "http-server -p 8000 -s index.html"
   },
-  "author": "Akira Fukushima <h3.poteto@gmail.com> (https://github.com/h3poteto)",
+  "author": "h3poteto",
   "license": "MIT",
   "dependencies": {
     "http-server": "^14.1.0",
