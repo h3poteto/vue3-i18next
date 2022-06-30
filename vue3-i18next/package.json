@@ -6,7 +6,16 @@
   "scripts": {
     "build": "tsc -p ./"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h3poteto/vue3-i18next.git"
+  },
   "author": "h3poteto",
+  "keywords": [
+    "vue3",
+    "i18next",
+    "i18n"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@babel/types": "^7.17.0",
