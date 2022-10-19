@@ -734,10 +734,10 @@ http-server@^14.1.1:
     union "~0.5.0"
     url-join "^4.0.1"
 
-i18next@^21.8.11:
-  version "21.8.11"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.8.11.tgz#197aac04be51b7083999a2cb63deb831cf1ba4c8"
-  integrity sha512-+s8N6kQShwNK+Ua/+VsS/Sji24NUJJLBk9QIucygj1f97f4hPNDWmLP9fQCI4d5+XLfXJ3JctX4g+zJla967Vw==
+i18next@^22.0.1:
+  version "22.0.1"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-22.0.1.tgz#cf21f5152c8cf4d29341ff44818cfe9f12fec87b"
+  integrity sha512-CRbtl6urEcIDbIzP4sGoPf9YuDNto1JgCRsfdvcVUOPb8nPAQ0azhPZiSdD5AFg/Erb58+/nDRmhm8bzVyjABQ==
   dependencies:
     "@babel/runtime" "^7.17.2"
 
