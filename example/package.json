@@ -16,7 +16,7 @@
     "vue3-i18next": "0.2.1"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.2.37",
+    "@vue/compiler-sfc": "^3.2.44",
     "css-loader": "^6.7.1",
     "style-loader": "^3.3.1",
     "ts-loader": "^9.3.1",
