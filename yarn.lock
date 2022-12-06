@@ -12,12 +12,12 @@
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.17.9.tgz#9c94189a6062f0291418ca021077983058e171ef"
   integrity sha512-vqUSBLP8dQHFPdPi9bc5GK9vRkYHJ49fsZdtoJ8EQ8ibpwk5rPKfvNIwChB0KVXcIjcepEBBd2VHC5r9Gy8ueg==
 
-"@babel/runtime@^7.17.2":
-  version "7.17.9"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
-  integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
+"@babel/runtime@^7.20.6":
+  version "7.20.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.20.6.tgz#facf4879bfed9b5326326273a64220f099b0fce3"
+  integrity sha512-Q+8MqP7TiHMWzSfwiJwXCjyf4GYA4Dgw3emg/7xmwsdLJOZUp+nMqcOwOzzYheuM1rhDu8FSj2l0aoMygEuXuA==
   dependencies:
-    regenerator-runtime "^0.13.4"
+    regenerator-runtime "^0.13.11"
 
 "@babel/types@^7.18.7":
   version "7.18.7"
@@ -734,12 +734,12 @@ http-server@^14.1.1:
     union "~0.5.0"
     url-join "^4.0.1"
 
-i18next@^21.8.11:
-  version "21.8.11"
-  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.8.11.tgz#197aac04be51b7083999a2cb63deb831cf1ba4c8"
-  integrity sha512-+s8N6kQShwNK+Ua/+VsS/Sji24NUJJLBk9QIucygj1f97f4hPNDWmLP9fQCI4d5+XLfXJ3JctX4g+zJla967Vw==
+i18next@^22.0.8:
+  version "22.0.8"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-22.0.8.tgz#0ab088d60cb83495c85422bb2e035a8a1e3756ef"
+  integrity sha512-cQUVZ3KUHtua4E9/9naB7oH5ymun0jAYKopXFgmSRXog0nrWFajAErz9eJ/A/dSj69YxmA8xOR4m5dY1OrKG5g==
   dependencies:
-    "@babel/runtime" "^7.17.2"
+    "@babel/runtime" "^7.20.6"
 
 iconv-lite@0.6.3:
   version "0.6.3"
@@ -1072,10 +1072,10 @@ rechoir@^0.7.0:
   dependencies:
     resolve "^1.9.0"
 
-regenerator-runtime@^0.13.4:
-  version "0.13.9"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
-  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
+regenerator-runtime@^0.13.11:
+  version "0.13.11"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.11.tgz#f6dca3e7ceec20590d07ada785636a90cdca17f9"
+  integrity sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==
 
 requires-port@^1.0.0:
   version "1.0.0"
