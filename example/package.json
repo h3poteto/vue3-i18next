@@ -13,7 +13,7 @@
     "i18next": "^22.4.6",
     "typescript": "^4.9.4",
     "vue": "^3.2.45",
-    "vue3-i18next": "0.2.1"
+    "vue3-i18next": "*"
   },
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.45",
