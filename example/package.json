@@ -10,7 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "http-server": "^14.1.1",
-    "i18next": "^22.4.6",
+    "i18next": "^22.4.8",
     "typescript": "^4.9.4",
     "vue": "^3.2.45",
     "vue3-i18next": "*"
